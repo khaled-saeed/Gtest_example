@@ -1,0 +1,48 @@
+Start testing: May 24 15:37 Egypt Daylight Time
+----------------------------------------------------------
+1/1 Testing: ExampleTests
+1/1 Test: ExampleTests
+Command: "E:/software_testing/example/build/test/Debug/ExampleTests.exe"
+Directory: E:/software_testing/example/build/test
+"ExampleTests" start time: May 24 15:37 Egypt Daylight Time
+Output:
+----------------------------------------------------------
+Running main() from E:\software_testing\example\googletest\googletest\src\gtest_main.cc
+[==========] Running 5 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from ExampleTests
+[ RUN      ] ExampleTests.Demonstrate
+[       OK ] ExampleTests.Demonstrate (0 ms)
+[----------] 1 test from ExampleTests (0 ms total)
+
+[----------] 4 tests from sum
+[ RUN      ] sum.AroundZero
+[       OK ] sum.AroundZero (0 ms)
+[ RUN      ] sum.NegativeValues
+[       OK ] sum.NegativeValues (0 ms)
+[ RUN      ] sum.NormalValues
+E:\software_testing\example\test\ExampleTests.cpp(23): error: Expected equality of these values:
+  6
+  sum(4,1)
+    Which is: 5
+[  FAILED  ] sum.NormalValues (1 ms)
+[ RUN      ] sum.NegativeVales
+[       OK ] sum.NegativeVales (0 ms)
+[----------] 4 tests from sum (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 2 test suites ran. (1 ms total)
+[  PASSED  ] 4 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] sum.NormalValues
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"ExampleTests" end time: May 24 15:37 Egypt Daylight Time
+"ExampleTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 24 15:37 Egypt Daylight Time

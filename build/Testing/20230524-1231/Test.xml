@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20230524-1231-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.26.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="BB-DT-0032"
+	OSRelease=" Professional"
+	OSVersion=" (Build 19044)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="10"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="15626"
+	TotalPhysicalMemory="12170"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3392"
+	>
+	<Testing>
+		<StartDateTime>May 24 15:37 Egypt Daylight Time</StartDateTime>
+		<StartTestTime>1684931856</StartTestTime>
+		<TestList>
+			<Test>./test/ExampleTests</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>ExampleTests</Name>
+			<Path>./test</Path>
+			<FullName>./test/ExampleTests</FullName>
+			<FullCommandLine>E:\software_testing\example\build\test\Debug\ExampleTests.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.019861</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>E:\software_testing\example\build\test\Debug\ExampleTests.exe</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNU9FOwjAUfe9X3MctgUUQfVjiAwlojAYNoCYCIWVcRpOunW0H+vd2KyEUYXiTZW3vufecnrbDQggmUsgoE0EIKyUz6MdTLVdmSxXODWpj81P8plnOcZpKmXIsVw+HWiXTtBzNyz5RkpDJ3T5mMNyR3ECJ0Y6lXU1AF8z+IzJp7mMGD1wuKHcAFBumpMhQWDCaZpEfgVsO56Q7meOShkxg+DaAKmZeJuphJoU2ihq0KBcvTzUoCK4g0+H/iB0YjDSUh8Sv6RxaoIvMF2kXoq6ShVh+opK+ND+3F3RcPsCUGrbBd8oL1H9b+PnzbaTKKN81qbsQ1fl7tiV5HrSvwxhQKalia02OicEl4FdBOTM/IFdg1qgRNlX/mADc2s/yBp1GKySljI81S9bAdAw35Sbuu4/P/d4pdRC0LjpxwYgDH+rOyjGdPtdzN9YgVc2l3Ar/RZx/CaCoiHwmK/21Oxq57e9ERb4p7io2gDNdOr1ALrdxvW+E2KpdetwfjckvwsFDMQ==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>May 24 15:37 Egypt Daylight Time</EndDateTime>
+		<EndTestTime>1684931856</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
